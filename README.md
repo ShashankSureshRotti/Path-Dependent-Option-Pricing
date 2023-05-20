@@ -3,7 +3,9 @@ Overview: This repository contains an OOP implementation of path-dependent optio
 
 ## Features:
 Path-dependent option pricing: The code provides a comprehensive implementation of pricing Asian options whose payoff depends on the entire path of the underlying asset. The asset is assumed to follow Geometric-Brownian motion.
+
 Monte Carlo Simulation: The option prices are calculated using Monte Carlo Simulation, a widely used numerical method for pricing options.
+
 Control Variate Technique: The implementation incorporates the Control Variate technique to reduce the error and improve the accuracy of the pricing results without increasing the number of simulated paths.
 
 ## File Structure:
